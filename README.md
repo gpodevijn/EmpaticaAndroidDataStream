@@ -1,4 +1,4 @@
-# EmpaticaAndroidDataStream
+# EmpaticaDataStream
 
 This Android application allows you to communicate with the Empatica E3 wristband device. It uses the Android Empatica API version 1.4.
 
