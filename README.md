@@ -21,6 +21,9 @@ In order to be able to build and run the application, you will need to add a fil
 </code>
 </pre>
 
+**Please take into account that possible bugs are present in this software. I do not take any responsability in case of problems (e.g., data loss)**
+
+
 # Screenshots
 <img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100541.png" width="250">
 <img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100553.png" width="250">
