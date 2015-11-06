@@ -35,3 +35,4 @@ proguard/
 # Database Files
 *.db
 
+app/src/main/res/values/privatekey.xml
