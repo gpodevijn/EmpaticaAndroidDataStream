@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/indigo_500</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="popupTheme">@style/AppTheme.ActionBar.Popup</item>
+    </style>
+    <style name="AppTheme.ActionBar.Popup" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+</resources>

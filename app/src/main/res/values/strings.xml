@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EmpaticaDataStream</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="heart_icon"></string>
+    <string name="eda_icon"></string>
+    <string name="temp_icon"></string>
+    <string name="straming_icon"></string>
+    <string name="play_icon"></string>
+    <string name="stop_icon"></string>
+    <string name="tag_icon"></string>
+    <string name="clear_icon">&#xf00d;</string>
+    <string name="check_icon">&#xf00c;</string>
+    <string name="save_icon">&#xf0c8;</string>
+    <string name="adduser_icon">&#xf234;</string>
+    <string name="restart_icon">&#xf01e;</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_new">New Session</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Theme.EmpaticaStreamTheme" parent="Theme.AppCompat.Light">
+    <item name="windowActionBar">false</item>
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">@color/red_500</item>
+
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">@color/red_800</item>
+
+    <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+    <item name="colorAccent">@color/pink_500</item>
+
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight, and colorSwitchThumbNormal. -->
+
+</style>
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/indigo_500</item>
+    </style>
+</resources>

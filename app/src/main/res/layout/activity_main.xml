@@ -1,0 +1,263 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    >
+
+
+<RelativeLayout
+    android:id="@+id/main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:clipChildren="false"
+    android:background="@color/grey_100" >
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/physio_value_card_view"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="3dp"
+        android:background="@color/green_200"
+        android:layout_margin="0dp">
+
+        <TextView
+            android:id="@+id/battery_level_textview"
+            android:layout_below="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red_A700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Battery level low"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            />
+
+    <LinearLayout
+        android:id="@+id/physio_value_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/heart_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heart_icon"
+                android:textSize="32sp"
+                android:textColor="@color/white"
+                android:background="@drawable/physiotextview_purple"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hr_value"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue_grey_600"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/eda_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eda_icon"
+                android:textSize="32sp"
+                android:textColor="@color/white"
+                android:background="@drawable/physiotextview_blue"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eda_value"
+                android:textColor="@color/blue_grey_600"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/temp_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_icon"
+                android:textSize="32sp"
+                android:textColor="@color/white"
+                android:background="@drawable/physiotextview_orange"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/temp_value"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue_grey_600"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/save_icon"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_icon"
+                android:textSize="32sp"
+                android:textColor="@color/white"
+                android:background="@drawable/physiotextview_green"
+                android:layout_gravity="center_horizontal"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/record_value"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/blue_grey_600"
+                android:textSize="24sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/counter_card_view"
+        android:layout_below="@+id/physio_value_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_200"
+        android:layout_marginBottom="3dp"
+        >
+
+
+
+        <LinearLayout
+        android:id="@+id/counter_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        >
+
+        <include layout="@layout/baseline_item"/>
+        <include layout="@layout/session_item"/>
+        <include layout="@layout/tag_item"/>
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/log_card_view"
+        android:layout_below="@+id/counter_card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_200"
+        android:layout_marginBottom="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experiment history"
+                style="@style/MyTextViewStyle"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/history_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="20dp"
+                    android:orientation="vertical"/>
+            </ScrollView>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+    <ProgressBar android:id="@+id/loading_spinner"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>
