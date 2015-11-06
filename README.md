@@ -6,7 +6,7 @@ It allows you to monitor in real-time (via Bluetooth) the physiological activity
 
 The app allows you to:
 - record a baseline of the physiological activity (you can configure the duration of the baseline)
-- record the physiological activity during an experiment (the experiment can be divided into multiple sessions, which can be of different duractions)
+- record the physiological activity during an experiment (the experiment can be divided into multiple sessions, which can be of different durations)
 - tag specific moments of the experiment
 - save the data in text files
 
