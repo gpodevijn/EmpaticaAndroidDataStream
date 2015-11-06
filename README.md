@@ -12,7 +12,20 @@ The app allows you to:
 
 In order to be able to build and run the application, you will need to add a file 'privatekey.xml' in 'app/src/main/res/values/' with the following content:
 
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="empatica_key">YOUR_PRIVATE_KEY</string>
-</resources>
+<pre>
+<code>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;resources&gt;
+    &lt;string name="empatica_key">YOUR_PRIVATE_KEY&lt;/string&gt;
+&lt;/resources&gt;
+</code>
+</pre>
+
+# Screenshots
+<img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100541.png" width="250">
+<img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100553.png" width="250">
+<img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100612.png" width="250">
+<img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100618.png" width="250">
+<img src="https://github.com/gpodevijn/EmpaticaAndroidDataStream/blob/master/screnshots/Screenshot_20151106-100634.png" width="250">
+
+
