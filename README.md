@@ -1,8 +1,8 @@
 # EmpaticaAndroidDataStream
 
-This Android application allows you to communicate with the Empatica E3 wristband device.
+This Android application allows you to communicate with the Empatica E3 wristband device. It uses the Android Empatica API version 1.4.
 
-It allows you to monitor in real-time (via Bluetooth) the physiological acitivy (heart rate, electrodermal activity, body temperature) of someone wearing the device.
+It allows you to monitor in real-time (via Bluetooth) the physiological activity (heart rate, electrodermal activity, body temperature) of someone wearing the device.
 
 The app allows you to:
 - record a baseline of the physiological activity (you can configure the duration of the baseline)
